@@ -1,0 +1,31 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
+}
+section{
+    display: flex;
+}
+.banner{
+    background-image: url(./images/shapes/Frame\ 59.jpg);
+}
+.half-width{
+    width: 50%;
+}
+.first-line{
+    color: purple;
+}
+span{
+    color: tomato;
+}
+.blue{
+    color: blue;
+}
+.order{
+    color: white;
+    background-image: linear-gradient(purple,tomato);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
