@@ -11,6 +11,12 @@ section{
 .half-width{
     width: 50%;
 }
+#img{
+    width: 300px;
+    height: 350px;
+    margin-left: 20px;
+    padding: 20px;
+}
 .first-line{
     color: purple;
 }
@@ -28,4 +34,14 @@ span{
     padding: 10px 40px;
     font-weight: 600;
     letter-spacing: 2px;
+}
+.middle{
+    background-image: url(./images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
+ul{
+    list-style-image: linear-gradient(tomato,purple);
+}
+.center>h1{
+    color: purple;
 }
