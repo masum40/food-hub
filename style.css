@@ -4,6 +4,7 @@ body{
 }
 section{
     display: flex;
+    height: 500px;
 }
 .banner{
     background-image: url(./images/shapes/Frame\ 59.jpg);
@@ -44,4 +45,75 @@ ul{
 }
 .center>h1{
     color: purple;
+}
+.catergory{
+    display: flex;
+}
+.trio{
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+}
+.trio>img{
+    width: 100%;
+    height: 90%;
+}
+.a{
+    color: rgb(20, 5, 230);
+   
+    font-weight: 700;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+}
+.b{
+    color: rgb(184, 11, 11);
+    
+    font-weight: 700;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+}
+.c{
+    color: rgb(4, 49, 23);
+    
+    font-weight: 700;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+}
+.recipe{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5%;
+}
+.last{
+    display: flex;
+    height: 150px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+#fb{
+    color: blue;
+    text-decoration: none;
+    
+}
+#yt{
+     color: red;
+    text-decoration: none;
+   
+}
+#tw{
+    color:rgba(0, 0, 255, 0.685);
+    text-decoration: none;
+    
+}
+footer{
+    background-image: url(./images/shapes/Frame\ 58.jpg);
+}
+footer h1{
+    color: tomato;
+    font-size: 50px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
 }
